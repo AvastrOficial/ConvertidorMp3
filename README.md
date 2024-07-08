@@ -16,3 +16,5 @@
 > pip install -r requirements.txt
 > 
 > python mp3BszV1.py
+# Emulalo en replit :
+https://replit.com/@StrAva1/mp3#main.py
