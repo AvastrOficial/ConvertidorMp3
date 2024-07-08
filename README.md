@@ -1,6 +1,7 @@
 # ConvertidorMp3
-
-pkg update && pkg upgrade
+> Esta herramienta trasforma un url de yotube a un video mp4 y del mp4 trasforma un mp3 y elimina el video mp4 para que se guarde solo el audio del video 
+# Instalacion termux
+> pkg update && pkg upgrade
 
 pkg install python
 
@@ -14,4 +15,4 @@ cd ConvertidorMp3
 
 pip install -r requirements.txt
 
-python 
+python mp3BszV1.py
