@@ -20,6 +20,7 @@
 > pip install yt-dlp
 >
 > pip install --upgrade pytube
+![image](https://github.com/user-attachments/assets/623e31ab-dbd7-41b3-b3b3-a45d2461f569)
 
 # Emulalo en replit :
 https://replit.com/@StrAva1/mp3#main.py
