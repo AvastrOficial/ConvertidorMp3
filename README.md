@@ -22,6 +22,11 @@
 > pip install --upgrade pytube
 > 
 ![image](https://github.com/user-attachments/assets/623e31ab-dbd7-41b3-b3b3-a45d2461f569)
+# Fotos actuales de la herramienta :
+![image](https://github.com/user-attachments/assets/509d0bf3-a7ad-47ce-80ab-f2d4cb30544c)
+# Informacion : 
+> Esta la opcion de poner mas de 1 url puedes hacer la separacion por coma
+![image](https://github.com/user-attachments/assets/b53ccdb1-4377-4aed-905c-e7c7044e2ef8)
 
 # Emulalo en replit :
 https://replit.com/@StrAva1/mp3#main.py
