@@ -2,6 +2,17 @@ import os
 import yt_dlp
 from pydub import AudioSegment
 
+def print_banner():
+    banner = """
+    Mp3BszV3 / @AvaStrOficial
+    
+    ▶︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 11:11
+    
+    / Descarga Musica De Un Solo Url 
+    / Escribe salir si ya no deceas usar la herramienta
+    """
+    print(banner)
+
 def download_video_from_youtube(link, output_path="downloads"):
     ydl_opts = {
         'format': 'bestaudio/best',
@@ -29,19 +40,18 @@ def convert_to_mp3(file_path):
     except Exception as e:
         print(f"Failed to convert {file_path}: {e}")
 
-def download_and_convert_youtube_videos(links, output_path="downloads"):
+def main():
+    print_banner()
+    output_path = "downloads"
     if not os.path.exists(output_path):
         os.makedirs(output_path)
-    for link in links:
-        audio_file = download_video_from_youtube(link, output_path)
-        if audio_file:
-            convert_to_mp3(audio_file)
+    while True:
+        link = input("Ingrese la URL de la música de YouTube : ")
+        if link.lower() == 'salir':
+            break
+        mp4_file = download_video_from_youtube(link, output_path)
+        if mp4_file:
+            convert_to_mp3(mp4_file)
 
 if __name__ == "__main__":
-    youtube_links = [
-        "",
-        ""
-  
-      
-    ]
-    download_and_convert_youtube_videos(youtube_links)
+    main()
