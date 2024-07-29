@@ -18,6 +18,8 @@
 > python mp3BszV1.py
 # Vercion 2 :
 > pip install yt-dlp
+>
+> pip install --upgrade pytube
 
 # Emulalo en replit :
 https://replit.com/@StrAva1/mp3#main.py
