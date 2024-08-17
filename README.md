@@ -27,6 +27,8 @@
 # Informacion : 
 > Esta la opcion de poner mas de 1 url puedes hacer la separacion por coma
 ![image](https://github.com/user-attachments/assets/b53ccdb1-4377-4aed-905c-e7c7044e2ef8)
-
+# Actualizacion v3:
+> Esta podras selcionar la opcion mp4 y mp3 :
+![image](https://github.com/user-attachments/assets/956e5cfd-2c95-421b-b555-fa887f2c3385)
 # Emulalo en replit :
 https://replit.com/@StrAva1/mp3#main.py
